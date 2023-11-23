@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lucija Rašić">
+
+    <title>Sweet cake</title>
+
+    <style>
+        body {
+            background-color: #f8e0e0;
+            font-family: Lucida Handwriting, cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #9c5985;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #9c5985;
+            padding: 10px;
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 10px;
+            text-decoration: none;
+            color: #333;
+            margin-right: 10px;
+        }
+
+        section {
+            background-image: url(pozadina.jpg);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            color: #301a2c;
+        }
+
+        article {
+            width: 100%;
+            background-color: #f8e0e0;
+            padding: 20px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        aside {
+            width: 100%;
+            background-color: #75436c;
+            padding: 20px;
+            box-sizing: border-box;
+            color: white;
+            font-size: 15px;
+        }
+
+        #tablica {
+            width: 100%;
+            background-color: #d1bcca;
+            color: black;
+			border:2px solid black;
+			
+        }
+		table tr td {
+		 border:2px solid black;
+		}
+		
+        footer {
+            background-color: #75436c;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        footer a {
+            color: black;
+        }
+
+        @media screen and (min-width: 600px) {
+            section {
+                flex-direction: row;
+            }
+
+            article {
+                width: 70%;
+            }
+
+            aside {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Logo poduzeća" width="180px" height="150px" align="left">
+    <div style="width: 45%; display: inline-block; text-align: right;">
+        Prijava: <input type="text"/> Lozinka: <input type="password"/> <input type="submit" value="Prijavi se"/>
+    </div>
+</header>
+
+    <nav>
+        <a href="#">Početna</a>
+        <a href="#">Kolači</a>
+        <a href="#">Torte</a>
+        <a href="#">Kontakt</a>
+    </nav>
+
+    <section>
+        <article>
+            <h1><u>Dobrodošli u našu slastičarnu!</u></h1>
+			</br> 
+            <p>Nemoguće je zamisliti svadbu, rođendan ili neki drugi važan događaj u životu bez raskošne svadbene torte ili kolača.</br>
+
+Posebni trenuci zaslužuju i posebne slatke zalogaje kakve, po pažljivo odabranoj recepturi, za vas priprema slastičarna Sweet cake.
+
+U skladu sa vašim željama, izrađujemo raskošne svadbene torte i do 10 katova, koje prevozimo na udaljenost do 20 km.</br>
+
+Ukoliko zbog brojnih obveza niste u prilici pripremiti silne blagdanske kolače, i tu imamo rješenje; jednostavno naručite mix pakiranje sitnih kolača pripremljenih po domaćoj recepturi.
+
+Iskoristite vašu posjetu prodajnom centru Mepas u Mostaru i kušajte neke od kolača iz naše ponude. Prema svom ukusu, birajte od tradicionalnih do suvremenih kremastih okusa. Ponosni smo na činjenicu da u pripremi slastica ne koristimo aditive te da biramo samo svježe namirnice.</p>
+        </article>
+
+        <aside>
+
+          <table id="tablica" cellpadding="2" cellspacing="2">
+		   <tr>
+		   <td> Kontaktirajte nas </td>
+		   <td> <a href="https://www.facebook.com/SweetcakeMostar/?locale=hr_HR"> Sweet cake</a> </td>
+		   </tr>
+		   
+		   <tr>
+		   <td> Torte </td>
+		   <td><a href="https://www.coolinarika.com/inspiracija/torte-e5fb813c-610d-11eb-af79-0242ac120055"> Sweet cake</a>  </td>
+		   </tr>
+		   
+		   <tr>
+		   <td> Kolači </td>
+		   <td> <a href="https://www.coolinarika.com/inspiracija/kolaci-e64076c0-610d-11eb-a235-0242ac120060"> Sweet cake</a> </td>
+		   </tr>
+		   
+		   <tr>
+		   <td> Razno </td>
+		   <td> <a href="https://www.coolinarika.com/inspiracija/cake-pops-57ffc9d6-6321-11eb-b89f-0242ac120013"> Sweet cake</a> </td>
+		   </tr>
+		   
+		  </table>
+         <h2><u>NAŠA MISIJA </u></h2>
+          Da našim kupcima pružimo hranu i piće najvišeg kvaliteta u toplom i prijatnom okruženju.
+
+          <h2><u> NAŠA VIZIJA </u></h2>
+          Cilj nam je da budemo najbolji Cafe slastičarna u gradu nudeći izuzetnu hranu i piće, izvanrednu uslugu za korisnike i jedinstvenu atmosferu.
+        </aside>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lucija Rašić. Sva prava pridržana.</p>
+        <p>Kontakt: <a href="mailto:lucija.rasic@fsre.sum.ba" >lucija.rasic@fsre.sum.ba</a></p>
+    </footer>
+
+</body>
+</html>
